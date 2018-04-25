@@ -1,0 +1,10 @@
+<div class='log' *ngIf='messageService.messages.length'>
+
+  <p></p>
+  <!-- delete all messages -->
+  <button class='clear' (click)='messageService.clear()'>clear messages</button>
+  <!-- display the messages -->
+  <div class='messages' *ngFor='let message of messageService.messages'>{{ message }}</div>
+</div>
+
+

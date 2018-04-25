@@ -1,0 +1,28 @@
+.details{
+  color: mediumblue;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}
+
+button {
+  margin: 5px;
+}
+
+ul {
+  font-size: 1.3em;
+  padding-left: 5px;
+  font-style: italic;
+  list-style-type: none;
+}
+
+input {
+  font-size: 0.9em;
+  margin: 5px;
+  padding: 8px 5px;
+  border: 1.5px solid darkgray;
+}

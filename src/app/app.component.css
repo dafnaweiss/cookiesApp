@@ -1,0 +1,59 @@
+/* AppComponent's private CSS styles */
+header {
+  grid-area: 1 / 1 / span 1 / span 2;
+  text-align: left;
+  color: mediumblue;
+}
+
+router-outlet {
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+
+app-messages {
+  grid-area: 3 / 1 / span 1 / span 1;
+}
+
+app-map {
+  grid-area: 2 / 2 / span 2 / span 1;
+}
+
+h1 {
+  font-size: 2.2em;
+  color: maroon;
+  margin-left: 20px;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+nav a {
+  font-size: 1.3em;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px 20px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+  box-shadow: 4px 4px gray;
+}
+
+nav a:visited, a:link {
+  color: mediumblue;
+}
+
+nav a:hover {
+  color: blue;
+  background-color: #CFD8DC;
+}
+
+nav a.active {
+  color: #039be5;
+}
+
+input, button {
+  display: inline-block;
+}
+
+

@@ -1,0 +1,22 @@
+/* Messages's private CSS styles */
+div {
+  margin-left: 20px;
+}
+
+p {
+  margin-top: 30px;
+  border-top-color: red;
+  border-top-style: dashed;
+  border-top-width: thin;
+  clear: left;
+}
+
+button.clear {
+  margin: 10px;
+}
+
+.messages {
+  font-size: 1.2em;
+  color: red;
+}
+

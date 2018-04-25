@@ -1,0 +1,16 @@
+<div class='dashboard'>
+  <h2> {{ dashboardTitle }} </h2>
+
+  <a *ngFor='let outpost of outposts' routerLink='/detail/{{outpost.id}}'>
+    <div class='outpost-name'>
+      <h3> {{outpost.name}} </h3>
+      <p> {{ outpost.numberOfCookiesLeft}} cookies left </p>
+      <p>  {{ outpost.numberOfCoffeeLeft}} coffee left </p>
+    </div>
+  </a>
+
+</div>
+
+
+
+

@@ -1,0 +1,77 @@
+/* Outposts Component's private CSS styles */
+.outpost-list{
+  color: mediumblue;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}
+
+span {
+  margin-right: .7em;
+}
+
+.outposts {
+  margin: 0 0 2em 0;
+  text-transform: capitalize;
+  list-style-type: none;
+  padding: 0;
+  width: 20em;
+  font-size: 1.1em;
+}
+
+.outposts li {
+  position: relative;
+  cursor: pointer;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em .5em;
+  height: 1.7em;
+  border-radius: 4px;
+  box-shadow: 3px 3px gray;
+}
+
+.outposts li:hover {
+  background-color: #DDD;
+  left: .1em;
+}
+
+.outposts a {
+  color: blue;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  width: 250px;
+  margin-right: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.outposts a:hover {
+  color: mediumblue;
+}
+
+button.delete {
+  position: relative;
+  left: 275px;
+  top: -28px;
+  box-shadow: none;
+  border-radius: 1px;
+  padding: 3px 10px;
+  /*float: right;*/
+  background-color: gray;
+  color: white;
+}
+
+button.delete:hover {
+  color: red;
+}
+
+input {
+  font-size: 1.1em;
+  margin-left: 5px;
+  padding: 10px 5px;
+  border: 1.5px solid darkgray;
+}

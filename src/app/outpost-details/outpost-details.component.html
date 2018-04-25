@@ -1,0 +1,25 @@
+<div class='details'>
+
+  <h2> outpost details: </h2>
+
+  <form class='outpost-details'>
+
+    <div *ngIf='outpost'>
+      <ul>
+        <li>Outpost id: {{outpost.id}}</li>
+        <li>Outpost name: <input name='name' [(ngModel)]='outpost.name' placeholder={{outpost.name}}></li>
+        <li>Outpost city: <input type='text' name='city' [(ngModel)]='outpost.city' placeholder={{outpost.city}}></li>
+        <li>Outpost country: <input type='text' name='country' [(ngModel)]='outpost.country' placeholder={{outpost.country}}></li>
+        <li>number of Cookies left: <input type='number' name='cookiesleft' [(ngModel)]='outpost.numberOfCookiesLeft'
+                                           placeholder={{outpost.numberOfCookiesLeft}}></li>
+        <li>number of Coffee left: <input type='number' name='coffeeLeft' [(ngModel)]='outpost.numberOfCoffeeLeft'
+                                          placeholder={{outpost.numberOfCoffeeLeft}}></li>
+      </ul>
+    </div>
+
+  </form>
+
+  <button class='goBack' (click)='goBack()'>back</button>
+  <button class='save' (click)='save()'>save</button>
+
+</div>

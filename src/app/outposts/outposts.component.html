@@ -1,0 +1,22 @@
+<!-- add a new outpost -->
+<div class='outpost-list'>
+  <h2> {{ listTitle }}</h2>
+  <input #outpostName name='name' placeholder='Enter a new Outpost name'/>
+  <button (click)="add(outpostName.value); outpostName.value=''">add a new outpost</button>
+</div>
+
+<!-- display a list of all the Outposts -->
+<div>
+  <ul class='outposts'>
+    <li *ngFor='let outpost of outposts'>
+      <a routerLink='/detail/{{outpost.id}}'>
+        <span>{{outpost.id}}</span> {{outpost.name}}
+      </a>
+      <!-- delete button on each outpost -->
+      <button class='delete' (click)='delete(outpost)'>X</button>
+    </li>
+  </ul>
+</div>
+
+
+
